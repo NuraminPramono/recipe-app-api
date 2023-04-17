@@ -11,5 +11,5 @@ class CalcTest(SimpleTestCase):
     def test_substract(self):  
         """test driven development"""
         """create unit test first, and then add funcionality"""
-        res=calc.substract(15, 10)
+        res = calc.substract(15, 10)
         self.assertEqual(res, 5)
