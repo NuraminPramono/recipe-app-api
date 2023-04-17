@@ -13,6 +13,7 @@ services:
     command: >
       sh -c "python manage.py runserver 0.0.0.0:8000"
     environment: # harus cocok dengan service db yang di declare di bawah
+    # variable ini di pake di settings.py untuk koneksi ke database
       - DB_HOST=db
       - DB_NAME=devdb
       - DB_USER=devuser
